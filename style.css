@@ -1,0 +1,45 @@
+:root {
+  --base1: #2f1b41;
+  --base2: #9f1e49;
+  --base3: #fecd51;
+  --base4: #f2f2f2;
+}
+
+
+body {
+  background-color: var(--base4);
+  color: var(--base3);
+
+}
+
+section {
+  width: 85%;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--base1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+ h1 {
+   margin-bottom: 20px;
+   font-size: 30px;
+   font-family: Impact, Charcoal, sans-serif;
+ }
+ol {
+  background-color: var(--base2);
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+li {
+
+
+  border: solid;
+  padding: 5px;
+}
